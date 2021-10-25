@@ -651,7 +651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 604120497}
-  horizontalOffset: 0
+  horizontalOffset: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -702,7 +702,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0.47, y: 4.37, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -813,7 +813,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604120494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.6914845, y: 2.39, z: 0}
+  m_LocalPosition: {x: -6.76, y: 2.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1255,7 +1255,10 @@ MonoBehaviour:
   gameCamera: {fileID: 519420031}
   areaStartOffset: -10
   areaEndOffset: 5
-  earlyTerrainTemplates: []
+  earlyTerrainTemplates:
+  - {fileID: 1185066961795172426, guid: 95313c343de2f8849a80dec31d2981c1, type: 3}
+  - {fileID: 1185066961795172426, guid: 95313c343de2f8849a80dec31d2981c1, type: 3}
+  - {fileID: 1185066961795172426, guid: 95313c343de2f8849a80dec31d2981c1, type: 3}
 --- !u!66 &1176820955
 CompositeCollider2D:
   m_ObjectHideFlags: 0
